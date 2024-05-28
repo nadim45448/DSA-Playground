@@ -21,9 +21,8 @@ void print(int n)
 }
 int main()
 {
-    int n;
-    cin>>n;
-    print(n);
+  
+    print(5);
     
     return 0;
 }
