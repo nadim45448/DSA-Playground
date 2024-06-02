@@ -8,19 +8,18 @@ int pIndex(int arr[], int low, int high)
 
     while (i < j)
     {
-        while (arr[i]<=pivot && i <= high - 1)
+        while (arr[i] <= pivot && i <= high - 1)
         {
             i++;
-            
         }
-        while (arr[j]>pivot  && j >= low+1)
-            {
-                j--;
-            }
-            if (i < j)
-            {
-                swap(arr[i], arr[j]);
-            }
+        while (arr[j] > pivot && j >= low + 1)
+        {
+            j--;
+        }
+        if (i < j)
+        {
+            swap(arr[i], arr[j]);
+        }
     }
     swap(arr[low], arr[j]);
     return j;
@@ -43,12 +42,12 @@ int main()
     {
         cin >> arr[i];
     }
-    quickSort(arr, 0, n-1);
+    quickSort(arr, 0, n - 1);
 
-    cout<<"After quick sort:";
-    for(int i=0;i<n;i++)
+    cout << "After quick sort:";
+    for (int i = 0; i < n; i++)
     {
-        cout<<arr[i]<<" ";
+        cout << arr[i] << " ";
     }
 
     return 0;
