@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int egtSingleElement(vector<int> &ar, int n)
+int getSingleElement(vector<int> &ar, int n)
 {
     int xorr=0;
     for(int i=0;i<ar.size();i++)
