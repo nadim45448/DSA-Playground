@@ -21,7 +21,7 @@ void Set()
 void multiSet()
 {
      // everything is same as set
-     // only stores du plicate element also
+     // only stores duplicate element also
       multiset<int>ms;
       ms.insert(2);
       ms.insert(2 );
