@@ -13,7 +13,7 @@ int upperBound(vector<int>ar, int n, int x){
             high=mid-1;
         }
         else{
-            mid=low+1;
+            low=mid+1;
         }
     }
     return ans;

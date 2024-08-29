@@ -2,6 +2,8 @@
 using namespace std;
 // celi-> lower bound
 int findFloor(int ar[], int n, int x){
+
+	// floor= longest element in the array which is less or equal to x
     int ans=-1;
     int low=0,high=n-1;
     while (low<=high)
