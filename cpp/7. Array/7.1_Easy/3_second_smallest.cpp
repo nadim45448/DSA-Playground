@@ -13,7 +13,7 @@ void secondSmallest(int arr[], int n)
         }
         else if(arr[i]>smallest && arr[i]<sSmallest)
         {
-            smallest=arr[i];
+            sSmallest=arr[i];
         }
         
     }
